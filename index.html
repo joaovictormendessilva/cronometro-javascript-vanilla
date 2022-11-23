@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cronometro</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="./css/style.css">
+
+        <!-- JS -->
+        <script src="./js/index.js" defer></script>
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/93cbe729f5.js" crossorigin="anonymous"></script>
+        
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>CRONÔMETRO</h1>
+            <h2>CRONÔMETRO JAVASCRIPT VANILLA</h2>
+
+            <div class="cron">
+                <span id="minutes">00</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+
+                <form name="actions" class="actions">
+                    <button type="submit" id="start"><i class="fa-sharp fa-solid fa-play"></i></button>
+                    <button id="pause" value="Pausar"><i class="fa-solid fa-pause"></i></button>  
+                    <button id="reset" value="Reiniciar"><i class="fa-solid fa-rotate"></i></button>
+                        
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
